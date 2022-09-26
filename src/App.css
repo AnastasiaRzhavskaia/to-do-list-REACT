@@ -65,6 +65,15 @@ li {
 
 .crossed {
   text-decoration: line-through 4px #a8d2a0;
+  -webkit-text-decoration: line-through;
+  -webkit-text-decoration-thickness: 4px;
+  -webkit-text-decoration-color: #a8d2a0;
+  -moz-text-decoration: line-through;
+  -moz-text-decoration-thickness: 4px;
+  -moz-text-decoration-color: #a8d2a0;
+  -ms-text-decoration: line-through;
+  -ms-text-decoration-thickness: 4px;
+  -ms-text-decoration-color: #a8d2a0;
 }
 .myLogo {
   text-decoration: none;
