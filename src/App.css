@@ -1,0 +1,75 @@
+body {
+  background-color: #86d1cd;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app {
+  background-image: url('5272.jpg');
+  background-color: #fff;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 18rem;
+  min-height: 95vh;
+  width: 400px;
+  margin: 0 auto;
+  border: 17px solid #ee9949;
+}
+hr {
+  border: 0,1px solid #233863;
+  width: 80%;
+}
+h1 {
+  margin-top: 12rem;
+  margin-bottom: 0;
+  color: #233863;
+  text-transform: uppercase;
+}
+input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ee9949;
+  font-family: 'Quicksand', sans-serif;
+}
+.btn {
+  background-color: #ee9949;
+  border: none;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 3px;
+  margin-left: 5px;
+  height: 32px;
+}
+.add {
+  width: 60px;
+}
+.delete {
+  width: 350px;
+}
+.uList {
+  margin-left: 0;
+  list-style-type: none;
+  color:#233863;
+  text-align: start;
+  width: 150px;
+}
+li {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.crossed {
+  text-decoration: line-through 4px #a8d2a0;
+}
+.myLogo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color:#233863;
+  font-weight: bold;
+  margin: 25px 0 25px 0;
+}
