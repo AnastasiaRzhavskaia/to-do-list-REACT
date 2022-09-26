@@ -16,10 +16,14 @@ export class ToDoList extends Component {
     }
 
     addItem (field) {
-        let toDoArray = this.state.toDoList;
+        if (field === '') {
+            alert('Please enter an item')
+        }
+        else {
+            let toDoArray = this.state.toDoList;
         toDoArray.push(field);
         this.setState({toDoList: toDoArray, inputField: ''});
-        console.log(toDoArray)
+        }
     }
 
     enterPressed(e) {
