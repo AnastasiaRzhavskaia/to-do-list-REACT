@@ -1,6 +1,5 @@
 import { Component } from "react";
 import One from './checkbox.png';
-// import Two from './checkbox (1).png';
 
 export class ToDoList extends Component {
 
@@ -12,7 +11,6 @@ export class ToDoList extends Component {
 
     onChangeEvent(e) {
         this.setState({inputField: e});
-        console.log(e)
     }
 
     addItem (field) {
@@ -33,9 +31,7 @@ export class ToDoList extends Component {
         const listItem = e.target;
         listItem.classList.toggle('crossed');
     }
-    // changeIcon = () => {
-    //     this.setState({image: Two})
-    // }
+    
     deleteItem () {
         let toDoArray = this.state.toDoList;
         toDoArray = [];
